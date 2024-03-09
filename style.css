@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(57, 55, 75);
+}
+#yourPresent {
+    background-color: rgb(52, 52, 202);
+    float: left;
+}
+
+#actualTime {
+    background-color: rgb(52, 92, 202);
+    float: right;
+
+}
+#actualTime, #yourPresent {
+    width: 20%; /* Cada div ocupará la mitad del contenedor */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+    padding: 10px; /* Ajusta el relleno según tus necesidades */
+    text-align: center;
+}
+#title {
+    text-align: center;
+    padding-top: 14px;
+}
+#macheteimg {
+    width: 30px;
+}
+#machine {
+    background-color: black;
+    width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    padding: 10px;
+    float: right ;
+    position: relative; /* Establece el posicionamiento relativo */
+}
+
+#machine img {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    top: 0; /* Ajusta la posición vertical según sea necesario */
+    left: 0; /* Ajusta la posición horizontal según sea necesario */
+}
+
+#machine p, button {
+    position: relative; /* Mantén el posicionamiento relativo para este elemento */
+    z-index: 1; /* Establece el orden de apilamiento, coloca el texto por encima de la imagen */
+    color: rgb(99, 144, 184);
+}
+#HoraMin, #DiaMes {
+    margin-top: 100px;
+    display: flex;
+}
+/* #botondown {
+    position: absolute;
+    margin-top: 25px;
+}
+#botonup {
+    position: absolute;
+    margin-top: -25px;
+
+} */
